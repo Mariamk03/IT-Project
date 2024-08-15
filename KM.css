@@ -1,0 +1,286 @@
+
+html, body {
+    height: auto;
+    min-height: 100vh;
+    margin-top: 0px;
+    display:flex;
+    flex-direction:column; /* Stapelt die Elemente vertikal */
+    /*justify-content:start;/* wenn center, zentriert den Inhalt vertikal */
+    align-items: center; /* Zentriert den Inhalt horizontal */
+    text-align: center; /* Zentriert den Text horizontal */
+    background-color: #0a4f50/* rgb(160, 148, 142);  #0a4f50 */
+}
+  
+
+#welcomeScreen {
+    
+    padding: 10vw;
+    padding-top: 0px; 
+    padding-bottom: 3vw;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    color: #000000;
+    background: hsl(0, 0%, 100%);
+    width:60vw;
+    border-radius: 10px;
+
+    /*padding-left:75%;
+    padding-right:75%;
+    margin-top: 0x;
+    margin-bottom: 0x;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #ffffff;
+    background:#a0948e; /*#b4a49c;*/          
+    /*width: 100%;
+    height: 100%;*/
+}
+
+#header {
+    background-color: #ffffff; 
+    color: #0a4f50; 
+    width: 100vw; 
+    height: 9vw; 
+    text-align: center; 
+    
+   }
+   
+   #header-bottom{
+       background-color:#022324; 
+       color: rgb(255, 255, 255); 
+       width: 88vw; 
+       height: 3vw; 
+       margin-bottom: 15px; 
+       text-align: left; 
+       padding-left: 12vw;
+       font-size: 1vw;
+   }
+   
+   #footer {
+       background-color: #022324;
+       color: white;
+       width: 100vw;
+       padding-top: 20px;
+       text-align: center;
+       margin-top: 10px;
+       
+   }
+   
+   a {
+       color: rgb(145, 214, 235);
+   }
+   
+
+
+#assessment {
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    padding: 15vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    font-size: 17px;
+    border-radius: 10px;
+    color: #000000;
+    background: hsl(0, 0%, 100%);
+    width:40%;
+    
+}
+
+
+#progressBarContainer {
+    width: 60px; /* Breite der vertikalen Leiste */
+    height:97vh; /* Höhe der vertikalen Leiste auf die gesamte Bildschirmhöhe */
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 0.5vw;
+    position: fixed; /* Fixiert die Position */
+    right: 8vw; /* Abstand vom rechten Rand */
+    top: 0; /* Fixiert oben am Bildschirmrand */
+}
+
+
+
+#progressBar {
+    width: 100%; /* Füllt die Breite des Containers */
+    height: 100%; /* Startet bei 100% und reduziert sich nach unten */
+    background-color: rgb(116, 176, 184);
+    border-radius: 3px;
+    transition: height 0.5s;
+    position: absolute;
+    top: 0; /* Beginnt am oberen Rand des Containers */
+}
+
+
+
+.distance {
+    margin-bottom: 10em; /* Ersetzt <br> durch einen unteren Abstand */
+}
+
+.question-text div {
+    margin-bottom: 1rem; /* Abstand nach jeder Antwortoption */
+
+    
+}
+
+/* Zusätzlicher Abstand um den Text */
+.question-text {   /*hier muss answer text heißen*/
+    line-height: 1.7;
+    margin-left: -7rem;
+    margin-right: -7rem; 
+    text-align:center;   
+    margin-bottom: 65px;
+    
+}
+
+.answer-option {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px; /*Ditance between Radio button and text*/
+    /*align-items: start;*/
+    background-color: #c6c9c9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 9px;
+  }
+  
+  .answer-option input[type="radio"] {
+    place-self: start;
+  }
+  
+  .answer-option label {
+    text-align: left;
+  }
+
+.button {
+    margin: 10px;
+    padding: 8px 16px;
+    border:none;
+    border-radius: 8px;
+    background-color: #c7cece;
+    color: #000;
+    border-color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    outline:none;
+    transition: background-color 0.3s ease;
+}
+
+
+.button:hover {background-color: #2f6f7a; color: white;} /* Farbänderung beim Hover */
+
+.button:active {background-color: #afcdcf;} /* Farbänderung beim Klicken */
+
+/* Container für die Buttons */
+.button-container {
+    display:inline-flex;
+    justify-content:space-between; /* Platz zwischen den Buttons */
+    padding: 0px 0; /* Etwas Platz oben und unten */
+    margin-bottom: 50px;
+
+}
+
+/* Zurück-Button links ausrichten */
+
+#backButton {
+    margin-right: auto;
+    margin-inline-end: auto;
+ }/* Sorgt dafür, dass der Zurück-Button nach links geschoben wird */
+
+
+/* Weiter-Button und Nächste-Dimension-Button rechts ausrichten */
+#nextButton,
+#submitAssessmentButton {
+     margin-left: auto;
+     margin-block-start: auto;
+    } /* Sorgt dafür, dass die Buttons nach rechts geschoben werden */
+
+
+#homepageButton{
+    position: fixed; /* Bleibt immer an der gleichen Stelle */
+    top: 10px; /* Abstand vom oberen Rand */
+    left: 10px; /* Abstand vom linken Rand */
+    z-index: 1000; /* Stellt sicher, dass der Button über anderen Elementen liegt */
+}
+
+
+/* Löschen der Floats nach den Buttons */
+.clearfix {
+    clear: both;
+}
+
+#resultsScreen {
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    padding: 15vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #080808;
+    background: #ffffff;
+    width: 90%;
+    max-width: 700px;
+    height: 100%;
+    
+    
+}
+
+.dimension-result {
+    
+    margin-bottom: 50px;
+}
+
+.detail-button {
+
+    margin-top: 10px;
+}
+
+.detail-screen {
+    
+    margin-top: 0x;
+    margin-bottom: 0x;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #000000;
+    width: 90%;
+    max-width: 1500px;
+    height: 100%;
+    
+}
+
+.question-detail {
+    margin-bottom: 20px; /* Abstand zwischen den Kriterien */
+    padding: 30px; /* Padding innerhalb der Frage-Detail-Box */
+    border: 1px ; /* Umrandung für jede Frage */
+    background-color: #f9f9f9; /* Hintergrundfarbe kriterium+Rekommendation*/
+    border-radius: 8px; /* Abgerundete Ecken */
+    
+}
+
+.recommendation-box {
+    padding: 30px; /* Innerer Abstand für Empfehlungsbox */
+    margin-top: 10px; /* Abstand nach dem Kriterium */
+    background-color: #e6e6e6; /* Hintergrundfarbe für Empfehlungen */
+    border-radius: 8px; /* Abgerundete Ecken */
+    
+}
+
+.icon-bar a{
+    display: none; /* Standardmäßig nicht angezeigt */
+    position: fixed; /* Bleibt immer an der gleichen Stelle */
+    top: 30px; /* Abstand vom oberen Rand */
+    left: 30px; /* Abstand vom linken Rand */
+    z-index: 1000; /* Stellt sicher, dass der Button über anderen Elementen liegt */
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+  
+  .icon-bar a:hover {
+   
+    color:#02251b;
+}
+  
+.icon-bar a:active {
+    
+    color:#474747;
+  }
