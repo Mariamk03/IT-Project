@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Wissensmanagement Self-Assessment</title>
+
+    <!-- <link rel="stylesheet" href="KM.css">-->
+    <link rel="stylesheet" href="https://mariamk03.github.io/IT-Project/KM.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+    <div id= "header">
+        <img src="https://mariamk03.github.io/IT-Project/Logo Self-Assessment.jpg" width="55%" height="85%" >
+    </div>
+   
+    <div id="header-bottom">
+         <p>Anleitung zur Self-Assessment</p>
+    </div>
+
+    <div id="welcomeScreen">
+        
+        <br>
+        <p>Wissensmanagement (WM) gewinnt zunehmend an Bedeutung, da Organisationen erkennen, dass nachhaltiger Wettbewerbsvorteil von einem effektiven Umgang mit ihren umfangreichen und vielfältigen Wissensressourcen abhängt.</p>
+        <p>Die Definition von „Wissen“ und die Erstellung von Metriken zur Bewertung, wie effektiv eine Organisation ihre Ressourcen verwaltet, ist eine herausfordernde Aufgabe. Bewertung ist der erste Schritt zur Verbesserung; man kann nur das verbessern, was man messen kann – formal oder informell.</p>
+        <p>Dieses Tool ist ein Instrument zur Messung einiger Schlüsselaspekte der Wissensmanagement-Reife (KMM).</p>
+        <p>Ziel ist es, sowohl das Reifegradniveau des Wissensmanagements einer Organisation zu identifizieren als auch Hinweise zu geben, wie dieses Niveau verbessert werden kann.</p>
+        <br>
+        <img src="https://mariamk03.github.io/IT-Project/Diagramm.png" width="60%" height="20%" >
+        <p><b>Testinformationen</b></p>
+        <p>Der Test enthält 5 Fragen zu jeder der oben genannten Dimensionen des Wissensmanagements.</p>
+        <p>Am Ende des Tests erhalten Sie eine Auswertung Ihres aktuellen Reifegradniveaus des Wissensmanagements in Ihrer Organisation und zusätzlich bekommen Sie Hinweise, wie Sie dieses Niveau verbessern können.</p>
+        <br>    
+        <p><b>Hinweis:</b></p>
+        <p>Ihre Informationen werden gemäß unserer Datenschutzrichtlinie nicht in unserer Datenbank gespeichert.</p><br> 
+        
+        <!--<p class="distance"></p>-->
+        <!-- More introductory text can be added here -->
+        <button class="button" onclick="startAssessment()">Test starten</button>
+
+        
+    </div>
+    <div class="icon-bar">
+        <a id="homeIcon" href="#" onclick="backToStart()"><i class="fa fa-home"></i></a>
+    </div>
+
+    <div id="assessment" style="display: none;">
+        <!-- Dynamic question content is loaded here -->
+    </div>
+   
+
+    <div id="progressBarContainer" style="display: none;">
+        <div id="progressBar"></div>
+    </div>
+    
+
+    <div id="resultsScreen" style="display: none;">
+        <!-- Results will be displayed here -->
+        <button class="button" onclick="downloadResultsAsPDF()">Ergebnisse herunterladen</button>
+    </div>
+
+    
+
+    <!-- Detail screens for each dimension -->
+    <div id="detailScreen1" class="detail-screen" style="display: none;">
+        <button class="button" onclick="downloadDetailAsPDF(0)">herunterladen</button>
+    </div>
+    <div id="detailScreen2" class="detail-screen" style="display: none;">
+        <button class="button" onclick="downloadDetailAsPDF(1)"> herunterladen</button>
+    </div>
+    <div id="detailScreen3" class="detail-screen" style="display: none;">
+        <button class="button" onclick="downloadDetailAsPDF(2)">herunterladen</button>
+    </div>
+    <div id="detailScreen4" class="detail-screen" style="display: none;">
+        <button class="button" onclick="downloadDetailAsPDF(3)">herunterladen</button>
+    </div>
+    <div id="detailScreen5" class="detail-screen" style="display: none;">
+        <button class="button" onclick="downloadDetailAsPDF(4)">herunterladen</button>
+    </div>
+
+    <!-- Neuer Footer-Bereich -->
+    <div id="footer">
+        <!-- Der Inhalt wird hier durch JavaScript ersetzt -->
+    </div>
+    
+   <!-- <script src="KM.js"></script>-->
+    <script src="https://mariamk03.github.io/IT-Project/KM.js"></script>
+
+</body>
+</html>
