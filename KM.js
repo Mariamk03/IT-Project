@@ -115,17 +115,13 @@ function loadDimension(dimensionIndex) {
             nextDimension();
         }
     } else {
-      nextDimension();
-
-        //alert("Bitte beantworten Sie alle Fragen, bevor Sie fortfahren.");
+      alert("Bitte beantworten Sie alle Fragen, bevor Sie fortfahren.");
     }
 }
   
-
 function areAllQuestionsAnswered(dimensionIndex) {
     return dimensions[dimensionIndex].questions.every(question => question.selectedAnswerIndex !== null);
 }
-
 
 function backToStart() {
 
