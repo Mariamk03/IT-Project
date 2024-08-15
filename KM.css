@@ -75,7 +75,7 @@ html, body {
 
 #assessment {
     margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
+    margin-bottom: 2vw;
     padding: 15vw;
     padding-top: 0vw;
     padding-bottom: 0vw;
@@ -90,7 +90,7 @@ html, body {
 
 #progressBarContainer {
     width: 60px; /* Breite der vertikalen Leiste */
-    height:97vh; /* Höhe der vertikalen Leiste auf die gesamte Bildschirmhöhe */
+    height:94vh; /* Höhe der vertikalen Leiste auf die gesamte Bildschirmhöhe */
     background-color: #e0e0e0;
     border-radius: 5px;
     margin-top: 0.5vw;
