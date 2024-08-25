@@ -7,7 +7,7 @@
         "text": "Werden Wissenslücken auf systematische Weise identifiziert und mithilfe klar definierter Prozesse geschlossen?",
         "answers": [
           {
-            "text": "Es existiert keine formalen Prozesse, um Wissenslücke zu identifizieren und zu schließen. Das Unternehmen reagiert nur nach Bedarf und nicht systematisch.",    
+            "text": "Es existieren keine formalen Prozesse, um Wissenslücken zu identifizieren und zu schließen. Das Unternehmen reagiert nur nach Bedarf und nicht systematisch.",    
             "score": 1,
             "recommendation": "Dokumentieren Sie unverzichtbare Kenntnisse für alltägliche Aufgaben und führen Sie klar definierte Prozesse ein, um Wissenslücken proaktiv zu schließen."
           },
@@ -39,7 +39,7 @@
         "text": "Bestimmt das Unternehmen seine Schlüssekompetenzen (strategisch wichtige Fähigkeiten, die einen Wettbewerbsvorteil bieten) und bringt sie mit seiner Mission und seinen strategischen Zielen in Einklang?",
         "answers": [
           {
-            "text": "Es existiert keine formalen Prozesse zur Erfassung, Weitergabe und Wiederverwendung von Schlüsselkompetenzen. Das Bewusstsein für die Bedeutung von Schlüsselkompetenzen fehlt.",
+            "text": "Es existieren keine formalen Prozesse zur Erfassung, Weitergabe und Wiederverwendung von Schlüsselkompetenzen. Das Bewusstsein für die Bedeutung von Schlüsselkompetenzen fehlt.",
             "score": 1,
             "recommendation": "Etablieren Sie ein systematisches Dokumentationsverfahren zur Verwaltung und Weiterentwicklung Ihrer Schlüsselkompetenzen für alltägliche Aufgaben."
           },
@@ -71,7 +71,7 @@
         "text": "Gestaltet das Unternehmen seine Arbeitssysteme und Schlüsselprozesse, um Wert für Kunden zu schaffen und Spitzenleistungen zu erreichen?",
         "answers": [
           {
-            "text": "Es existiert keine formalen Prozesse zur Erfassung, Weitergabe und Wiederverwendung von Arbeitssystemen und Schlüsselprozessen.",
+            "text": "Es existieren keine formalen Prozesse zur Erfassung, Weitergabe und Wiederverwendung von Arbeitssystemen und Schlüsselprozessen.",
             "score": 1,
             "recommendation": "Dokumentieren Sie Schlüsselprozesse für die tägliche Aufgabenerfüllung und etablieren Sie ein klares Bewusstsein für die Gestaltung von Arbeitssystemen und Schlüsselprozessen, die Wert für Kunden schaffen und Spitzenleistungen erreichen."
           },
@@ -91,7 +91,7 @@
             "recommendation": "Integrieren Sie die kontinuierliche Verbesserung von Arbeitssystemen und Schlüsselprozessen als festen Bestandteil Ihrer Unternehmenskultur, um nachhaltig Kundennutzen zu schaffen und konstante Spitzenleistungen zu erreichen."
           },
           {
-            "text": "Die kontiuerliche Verbesserung der Arbeitssysteme und Schlüsselprozesse ist integraler Bestandteil des Unternehmens. Dadurch wird ein Kundenwert geschaffen und Spitzenleistungen werden erreicht.",
+            "text": "Die kontinuierliche Verbesserung der Arbeitssysteme und Schlüsselprozesse ist integraler Bestandteil des Unternehmens. Dadurch wird ein Kundenwert geschaffen und Spitzenleistungen werden erreicht.",
             "score": 5,
             "recommendation": "Sie haben den hochsten Reifegrad im Kriterium 'Gestaltung von Geschäftsprozessen für Kundenwert und Spitzenleistung' erreicht. Eine fortlaufende Überwachung und Anpassung der bestehenden Maßnahmen ist jedoch erforderlich."
           }
@@ -100,15 +100,15 @@
       },
       {
         "criteria": "Einbezug von Neuem und Effizienz in Prozessgestaltung",
-        "text": "Werden neue Technologie, Wissen, Flexibilität, Effizienz und Effektivität in die Gestaltung der Arbeitsabläufe des Unternehmens einbezogen?",
+        "text": "Werden neue Technologien, Wissen, Flexibilität, Effizienz und Effektivität in die Gestaltung der Arbeitsabläufe des Unternehmens einbezogen?",
         "answers": [
           {
-            "text": "Es existieren keine formalen Prozesse zur systematischen Erfassung und Verwendung von neuen Technologien, Wissen, Flexibiltät, Effizienz und Effektivität in die Gestasltung der WM-Prozesse Arbeitsabläufe des Unternehmen.",
+            "text": "Es existieren keine formalen Prozesse zur systematischen Erfassung und Verwendung von neuen Technologien, Wissen, Flexibiltät, Effizienz und Effektivität in die Gestaltung der WM-Prozesse Arbeitsabläufe des Unternehmens.",
             "score": 1,
             "recommendation": "Dokumentieren Sie erste Ansätze zur Integration neuer Technologien, Wissen und zur Steigerung von Flexibilität, Effizienz und Effektivität in Ihr Wissensmanagement, und definieren Sie klare Schritte zur Konkretisierung der Umsetzung."
           },
           {
-            "text": "Es gibt erste Ansätze neue Technologien, Wissen, Flexibiltät, Effizient und Effektivität in die Gestaltung des Wissensmanagements einzubeziehen. Sie sind dokumentiert, allerdings ist die Umsetzung nicht konkretisiert.",
+            "text": "Es gibt erste Ansätze, neue Technologien, Wissen, Flexibiltät, Effizient und Effektivität in die Gestaltung des Wissensmanagements einzubeziehen. Sie sind dokumentiert, allerdings ist die Umsetzung nicht konkretisiert.",
             "score": 2,
             "recommendation": "Verfestigen Sie formale Prozesse zur systematischen Erfassung und Nutzung neuer Technologien, Wissen, Flexibilität, Effizienz und Effektivität, und messen Sie mithilfe von Metriken die Beiträge dieser Faktoren zur Produktivitätssteigerung."
           },
