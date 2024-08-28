@@ -124,7 +124,7 @@ function areAllQuestionsAnswered(dimensionIndex) {
 }
 
 function backToStart() {
-
+window.scrollTo(0, 0);
      // Reset des aktuellen Dimensionsindex
      currentDimension = 0;
 
