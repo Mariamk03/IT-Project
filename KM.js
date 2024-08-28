@@ -195,6 +195,7 @@ function checkDimensionCompletion(dimensionIndex) {
   }
 
   function submitAssessment() {
+    window.scrollTo(0, 0);
     document.getElementById('assessment').style.display = 'none';
     document.getElementById('progressBarContainer').style.display = 'none';
     document.getElementById('homeIcon').style.display = 'block';
@@ -306,7 +307,7 @@ function downloadDetailAsPDF(index) {
   // Setze den Titel mit dem Dimension-Namen und zentriere ihn
   doc.setFontSize(18);
   doc.setFont("helvetica", "bold");
-  doc.text(`Detaillierte Ergebnisse für ${dimensionName}`, 105, 20, null, null, 'center');
+  doc.text(`Detaillierte Ergebnisse für Dimension ${dimensionName}`, 105, 20, null, null, 'center');
 
   // Bereite den Inhalt für das PDF vor
   let yPosition = 40;
