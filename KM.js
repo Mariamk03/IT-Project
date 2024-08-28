@@ -376,6 +376,7 @@ for (let i = 0; i < 5; i++) {
 
 function showDetailScreen(index) {
     // Verstecke die Ergebnisansicht und alle anderen Detailansichten
+  window.scrollTo(0, 0);
     document.getElementById('resultsScreen').style.display = 'none';
     document.querySelectorAll('.detail-screen').forEach(screen => screen.style.display = 'none');
 
